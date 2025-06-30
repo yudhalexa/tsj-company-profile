@@ -15,23 +15,23 @@
           <a class="nav-link {{ Request::is('/') ? 'active' : '' }}" aria-current="page" href="{{ route ('home') }}">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link {{ Request::is('ourstory') ? 'active' : '' }}" href="{{ route ('ourstory') }}">Our Story</a>
+          <a class="nav-link {{ Request::is('ourstory') ? 'active' : '' }}" href="{{ route ('ourstory') }}">About Us</a>
         </li>
         <li class="nav-item">
           <a class="nav-link {{ Request::is('productservices') ? 'active' : '' }}" href="{{ route('productservices') }}" tabindex="-1" aria-disabled="true">Product and Services</a>
         </li>
-        <li class="nav-item">
+        {{-- <li class="nav-item">
           <a class="nav-link {{ Request::is('portfolio') ? 'active' : '' }}" href="{{ route('portfolio') }}" tabindex="-1" aria-disabled="true">Porfolio</a>
-        </li>
-        <li class="nav-item">
+        </li> --}}
+        {{-- <li class="nav-item">
           <a class="nav-link {{ Request::is('ourdemo') ? 'active' : '' }}" href="{{ route('ourdemo') }}" tabindex="-1" aria-disabled="true">Our Demo</a>
-        </li>
+        </li> --}}
         <li class="nav-item">
           <a class="nav-link {{ Request::is('contact') ? 'active' : '' }}" href="{{ route('contact') }}" tabindex="-1" aria-disabled="true">Contact Us</a>
         </li>
-        <li class="nav-item">
+        {{-- <li class="nav-item">
           <a class="nav-link link-client {{ Request::is ('loginarea') ? 'active' : '' }}" href="{{ route ('loginarea') }}" tabindex="-1" aria-disabled="true">Client Area</a>
-        </li>
+        </li> --}}
       </ul>
     </div>
   </div>

@@ -118,30 +118,6 @@
                       <img src="{{ asset('/frontend/img/makarim-removebg-preview.png') }}" 
                       class="img-fluid floating rectangle"/>
                     </div>
-                    <div class="client-rectangle">
-                      <img src="{{ asset('/frontend/img/ifg-life-removebg-preview.png') }}" 
-                      class="img-fluid floating rectangle"/>
-                    </div>
-                    <div class="client-rectangle">
-                      <img src="{{ asset('/frontend/img/makarim-removebg-preview.png') }}" 
-                      class="img-fluid floating rectangle"/>
-                    </div>
-                    <div class="client-rectangle">
-                      <img src="{{ asset('/frontend/img/ifg-life-removebg-preview.png') }}" 
-                      class="img-fluid floating rectangle"/>
-                    </div>
-                    <div class="client-rectangle">
-                      <img src="{{ asset('/frontend/img/makarim-removebg-preview.png') }}" 
-                      class="img-fluid floating rectangle"/>
-                    </div>
-                    <div class="client-rectangle">
-                      <img src="{{ asset('/frontend/img/ifg-life-removebg-preview.png') }}" 
-                      class="img-fluid floating rectangle"/>
-                    </div>
-                    <div class="client-rectangle">
-                      <img src="{{ asset('/frontend/img/makarim-removebg-preview.png') }}" 
-                      class="img-fluid floating rectangle"/>
-                    </div>
                   </div>
                 </div>
               </div>
