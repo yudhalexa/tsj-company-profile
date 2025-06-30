@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'Our Story')
+@section('title', 'About Us')
 
 @section('content')
     <main class="mt-5">

@@ -8,16 +8,10 @@
                 <p><a href="{{ route('home') }}">Home</a></p>
               </li>
               <li>
-                <p><a href="{{ route('ourstory') }}">Our Story</a></p>
-              </li>
-              <li>
-                <p><a href="{{ route('ourdemo') }}">Our Demo</a></p>
+                <p><a href="{{ route('aboutus') }}">About Us</a></p>
               </li>
               <li>
                 <p><a href="{{ route('contact') }}">Contact</a></p>
-              </li>
-              <li>
-                <p><a href="{{ route('loginarea') }}">Client Area</a></p>
               </li>
             </ul>
           </div>

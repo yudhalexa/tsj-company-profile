@@ -5,7 +5,7 @@ namespace App\Http\Controllers\Frontsite;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 
-class OurStoryController extends Controller
+class AboutUsController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -14,7 +14,7 @@ class OurStoryController extends Controller
      */
     public function index()
     {
-        return view('pages.ourstory');
+        return view('pages.aboutus');
     }
 
 }

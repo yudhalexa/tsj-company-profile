@@ -14,10 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/',[App\Http\Controllers\Frontsite\LandingController::class, 'index'])->name('home');
-Route::get('ourstory', [App\Http\Controllers\Frontsite\OurStoryController::class, 'index'])->name('ourstory');
+Route::get('aboutus', [App\Http\Controllers\Frontsite\AboutUsController::class, 'index'])->name('aboutus');
 Route::get('productservices', [App\Http\Controllers\Frontsite\ProductServiceController::class, 'index'])->name('productservices');
-Route::get('portfolio', [App\Http\Controllers\Frontsite\PortfolioController::class, 'index'])->name('portfolio');
-Route::get('ourdemo', [App\Http\Controllers\Frontsite\OurDemoController::class, 'index'])->name('ourdemo');
 Route::get('contact', [App\Http\Controllers\Frontsite\ContactController::class, 'index'])->name('contact');
-Route::get('login', [App\Http\Controllers\Frontsite\LoginAreaController::class, 'index'])->name('loginarea');
 Route::post('/sendEmail', [App\Http\Controllers\Frontsite\ContactController::class, 'sendEmail'])->name('mesagges');
