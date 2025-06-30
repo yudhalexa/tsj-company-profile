@@ -1,0 +1,39 @@
+ <!-- navbar -->
+ <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
+  <div class="container">
+    <a href="#">
+      <img src="{{ asset('/frontend/img/logo-header.png') }}" alt="teknosolusi" class="img-fluid" width="220rem" />
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link {{ Request::is('/') ? 'active' : '' }}" aria-current="page" href="{{ route ('home') }}">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link {{ Request::is('ourstory') ? 'active' : '' }}" href="{{ route ('ourstory') }}">Our Story</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link {{ Request::is('productservices') ? 'active' : '' }}" href="{{ route('productservices') }}" tabindex="-1" aria-disabled="true">Product and Services</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link {{ Request::is('portfolio') ? 'active' : '' }}" href="{{ route('portfolio') }}" tabindex="-1" aria-disabled="true">Porfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link {{ Request::is('ourdemo') ? 'active' : '' }}" href="{{ route('ourdemo') }}" tabindex="-1" aria-disabled="true">Our Demo</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link {{ Request::is('contact') ? 'active' : '' }}" href="{{ route('contact') }}" tabindex="-1" aria-disabled="true">Contact Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link link-client {{ Request::is ('loginarea') ? 'active' : '' }}" href="{{ route ('loginarea') }}" tabindex="-1" aria-disabled="true">Client Area</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<!-- end of navbar -->
